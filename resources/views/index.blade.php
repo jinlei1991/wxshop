@@ -7,6 +7,7 @@
 @section('content')
 	<div class="marginB" id="loadingPicBlock">
 		<!-- 焦点图 -->
+		适得府君书的看法了坚实的开了房间时空的减肥快乐圣诞节
 		<div class="hotimg-wrapper">
 			<div class="hotimg-top"></div>
 			<section id="sliderBox" class="hotimg">
