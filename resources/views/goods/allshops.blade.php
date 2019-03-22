@@ -119,12 +119,12 @@
     @endsection
 @section('my-js')
     <script>
-      /*  jQuery(document).ready(function() {
+       jQuery(document).ready(function() {
             $("img.lazy").lazyload({
                 placeholder : "{{url('images/loading2.gif')}}",
                 effect: "fadeIn",
             });
-        });*/
+        });
         $(function(){
            var type ={{$cateid}};
             $("li[cateid='"+type+"']").addClass("current").siblings('li').removeClass('current');
