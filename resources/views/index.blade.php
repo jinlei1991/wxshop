@@ -6,7 +6,7 @@
 @endsection
 @section('content')
 	<div class="marginB" id="loadingPicBlock">
-		静安寺大家爱看打开手机打开拉家带口拉进来大家好的教科书房价快速的回复即可收到回复加快速度很快放假剑及履及
+		<h1>aaaa</h1>
 		<!-- 焦点图 -->
 		<div class="hotimg-wrapper">
 			<div class="hotimg-top"></div>
