@@ -6,7 +6,6 @@
 @endsection
 @section('content')
 	<div class="marginB" id="loadingPicBlock">
-		<h1>aaaa</h1>
 		<!-- 焦点图 -->
 		<div class="hotimg-wrapper">
 			<div class="hotimg-top"></div>
