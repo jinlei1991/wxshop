@@ -79,7 +79,7 @@
 							<div class="btn-wrap" name="buyBox">
 								<a href="" class="buy-btn">立即购买</a>
 								<div class="gRate">
-									<a href=""></a>
+									<a href="javascript:;"></a>
 								</div>
 							</div>
 						</li>

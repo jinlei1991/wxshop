@@ -1,6 +1,7 @@
 $(function(){
 	var clicknum = 0;
 	$('.gRate').click(function(){
+
 		layer.msg('添加成功！');
 		// 目前为了测试数量为点击的次数，应该设为商品种类的数量
 		clicknum++;

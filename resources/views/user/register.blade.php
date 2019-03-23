@@ -104,23 +104,15 @@
 
                 }
                 registertel();
-                // 购物协议
-                $('dl.a-set i').click(function(){
-                    var that= $(this);
-                    if(that.hasClass('gou')){
-                        that.removeClass('gou').addClass('none');
-                        $('#btnNext').css('background','#ddd');
-
-                    }else{
-                        that.removeClass('none').addClass('gou');
-                        $('#btnNext').css('background','#f22f2f');
-                    }
-
-                })
                 // 下一步提交
                 $('#btnNext').click(function() {
                     if ($('#userMobile').val() == '') {
                         layer.msg('请输入您的手机号！');
+                        return
+                    }
+                    if($('#phone_code').val() ==''){
+                        layer.msg("请输入验证码");
+                        return
                     }
                     $.ajax({
                         url: "/user/doregister",

@@ -35,7 +35,7 @@ class UserController extends Controller
     public function doregister(Request $request)
     {
         //$mobile = $request->mobile;
-        $this->sendMobile($mobile=15901429613);
+       // $this->sendMobile($mobile=15901429613);
     }
 
     /*
